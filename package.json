@@ -1,0 +1,9 @@
+{
+  "name": "@imazzine/webpack",
+  "version": "0.0.0",
+  "description": "Imazzine Development Kit webpack configuration package.",
+  "main": "index.js",
+  "scripts": { },
+  "author": "",
+  "license": "Apache 2"
+}
