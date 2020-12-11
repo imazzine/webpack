@@ -1,9 +1,24 @@
 {
   "name": "@imazzine/webpack",
-  "version": "0.0.0",
+  "version": "0.0.0-alpha.1",
   "description": "Imazzine Development Kit webpack configuration package.",
+  "author": {
+    "name": "Artem Lytvynov",
+    "email": "buntarb@gmail.com"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "type": "module",
   "main": "index.js",
+  "bin": {
+    "wb": "index.js"
+  },
   "scripts": { },
-  "author": "",
-  "license": "Apache 2"
+  "license": "Apache-2.0",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "fork-ts-checker-webpack-plugin": "^6.0.4"
+  }
 }
